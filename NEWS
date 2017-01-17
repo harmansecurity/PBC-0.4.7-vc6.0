@@ -1,0 +1,64 @@
+The PBC pairing-based cryptography library. See COPYING for license.
+
+Ben Lynn
+
+Changes between PBC version 0.4.7 and 0.4.6
+
+* Bugfix: element_cmp for zero case in prime field
+* Symmetric pairing checks for other examples
+* Faster D, G pairings
+
+Changes between PBC version 0.4.6 and 0.4.5
+
+* Type G pairings (embedding degree 10)
+* Bugfix for version 0.4.5 random point generation
+
+Changes between PBC version 0.4.5 and 0.4.4
+
+* Symmetric pairing checks for example/hess.c and example/paterson.c
+* Shipsey-Stange algorithm for type E pairing (not used by default)
+* Random point generation is faster in some cases
+* Added benchmark/ellnet.c
+
+Changes between PBC version 0.4.4 and 0.4.3
+
+* Optimizations for most pairings
+* Shipsey-Stange algorithm for type A pairing (not used by default)
+
+Changes between PBC version 0.4.3 and 0.4.2
+
+* Added pairing_is_symmetric function.
+* element_from_bytes for G1, G2 check input is valid.
+* Added -e option for pbc.
+
+Changes between PBC version 0.4.2 and 0.4.1
+
+* Added element_set_str, element_snprintf, element_snprint functions.
+* Added fromstr function and string handling to pbc/pbc test program.
+* Minor bugfixes and cleanup.
+
+Changes between PBC version 0.4.1 and 0.4.0
+
+* Removed test subdirectory: moved programs to new subdirectories:
+  - benchmark: programs for obtaining timings.
+  - example: pairing-based cryptosystem demos.
+  - gen: programs that generate pairing parameters.
+  - pbc: the "Pairing-Based Calculator".
+  - guru: for testing obscure parts of the library. Most need not
+    know of its existence.
+* Documentation for some of the above programs.
+* New cryptosystem demos (by Dmitry Kosolapov).
+
+Changes between PBC version 0.4.0 and 0.3.17
+
+* Signatures and broadcast encryption spun off into new libraries.
+* Memory leaks plugged, including two that were relatively low-level
+  (and hence serious).
+* New debugging facilities: if PBC_DEBUG is defined, during runtime
+  PBC will check that elements from different algebraic structures are not
+  mixed.
+* If a memory allocation fails, PBC prints a message and quits (rather
+  than quietly continuing causing unpredictable behaviour). 
+* Custom memory allocation.
+* All PBC header files given "pbc" prefix.
+* Minor fixes.

@@ -1,0 +1,77 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PBCVC - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\LiangHui\AppData\Local\Temp\RSPB9E1.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ./self-compiled/gmp.lib ./libeay32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/PBCVC.pdb" /machine:I386 /nodefaultlib:"LIBC" /nodefaultlib:"lib" /out:"Release/PBCVC.exe" 
+".\Release\a_param.obj"
+".\Release\curve.obj"
+".\Release\d_param.obj"
+".\Release\darray.obj"
+".\Release\extend_printf.obj"
+".\Release\f_param.obj"
+".\Release\fasterfp.obj"
+".\Release\fastfp.obj"
+".\Release\field.obj"
+".\Release\fieldquadratic.obj"
+".\Release\fops.obj"
+".\Release\fp.obj"
+".\Release\getime.obj"
+".\Release\IBCES.obj"
+".\Release\memory.obj"
+".\Release\montfp.obj"
+".\Release\naivefp.obj"
+".\Release\pairing.obj"
+".\Release\param.obj"
+".\Release\parse.obj"
+".\Release\poly.obj"
+".\Release\random.obj"
+".\Release\symtab.obj"
+".\Release\tracker.obj"
+]
+Creating command line "link.exe @C:\Users\LiangHui\AppData\Local\Temp\RSPB9E1.tmp"
+<h3>Output Window</h3>
+Linking...
+Creating temporary file "C:\Users\LiangHui\AppData\Local\Temp\RSPBDF7.tmp" with contents
+[
+/nologo /o"Release/PBCVC.bsc" 
+".\Release\a_param.sbr"
+".\Release\curve.sbr"
+".\Release\d_param.sbr"
+".\Release\darray.sbr"
+".\Release\extend_printf.sbr"
+".\Release\f_param.sbr"
+".\Release\fasterfp.sbr"
+".\Release\fastfp.sbr"
+".\Release\field.sbr"
+".\Release\fieldquadratic.sbr"
+".\Release\fops.sbr"
+".\Release\fp.sbr"
+".\Release\getime.sbr"
+".\Release\IBCES.sbr"
+".\Release\memory.sbr"
+".\Release\montfp.sbr"
+".\Release\naivefp.sbr"
+".\Release\pairing.sbr"
+".\Release\param.sbr"
+".\Release\parse.sbr"
+".\Release\poly.sbr"
+".\Release\random.sbr"
+".\Release\symtab.sbr"
+".\Release\tracker.sbr"]
+Creating command line "bscmake.exe @C:\Users\LiangHui\AppData\Local\Temp\RSPBDF7.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+PBCVC.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,254 @@
+# Microsoft Developer Studio Generated Dependency File, included by PBCVC.mak
+
+..\ecc\a_param.c : \
+	"..\include\pbc_a1_param.h"\
+	"..\include\pbc_a_param.h"\
+	"..\include\pbc_assert.h"\
+	"..\include\pbc_curve.h"\
+	"..\include\pbc_darray.h"\
+	"..\include\pbc_field.h"\
+	"..\include\pbc_fieldquadratic.h"\
+	"..\include\pbc_fops.h"\
+	"..\include\pbc_fp.h"\
+	"..\include\pbc_memory.h"\
+	"..\include\pbc_pairing.h"\
+	"..\include\pbc_param.h"\
+	"..\include\pbc_random.h"\
+	"..\include\pbc_symtab.h"\
+	"..\include\pbc_tracker.h"\
+	"..\include\pbc_utils.h"\
+	".\gmp.h"\
+	
+
+..\ecc\curve.c : \
+	"..\include\pbc_assert.h"\
+	"..\include\pbc_curve.h"\
+	"..\include\pbc_darray.h"\
+	"..\include\pbc_field.h"\
+	"..\include\pbc_memory.h"\
+	"..\include\pbc_poly.h"\
+	"..\include\pbc_random.h"\
+	"..\include\pbc_utils.h"\
+	".\gmp.h"\
+	
+
+..\ecc\d_param.c : \
+	"..\include\pbc_assert.h"\
+	"..\include\pbc_curve.h"\
+	"..\include\pbc_d_param.h"\
+	"..\include\pbc_darray.h"\
+	"..\include\pbc_field.h"\
+	"..\include\pbc_fieldquadratic.h"\
+	"..\include\pbc_fops.h"\
+	"..\include\pbc_fp.h"\
+	"..\include\pbc_hilbert.h"\
+	"..\include\pbc_memory.h"\
+	"..\include\pbc_mnt.h"\
+	"..\include\pbc_pairing.h"\
+	"..\include\pbc_param.h"\
+	"..\include\pbc_poly.h"\
+	"..\include\pbc_symtab.h"\
+	"..\include\pbc_tracker.h"\
+	"..\include\pbc_utils.h"\
+	".\gmp.h"\
+	
+
+..\misc\darray.c : \
+	"..\include\pbc_darray.h"\
+	"..\include\pbc_memory.h"\
+	
+
+..\misc\extend_printf.c : \
+	"..\include\pbc_assert.h"\
+	"..\include\pbc_field.h"\
+	"..\include\pbc_memory.h"\
+	"..\include\pbc_utils.h"\
+	".\gmp.h"\
+	
+
+..\ecc\f_param.c : \
+	"..\include\pbc_assert.h"\
+	"..\include\pbc_curve.h"\
+	"..\include\pbc_darray.h"\
+	"..\include\pbc_f_param.h"\
+	"..\include\pbc_field.h"\
+	"..\include\pbc_fieldquadratic.h"\
+	"..\include\pbc_fops.h"\
+	"..\include\pbc_fp.h"\
+	"..\include\pbc_memory.h"\
+	"..\include\pbc_pairing.h"\
+	"..\include\pbc_param.h"\
+	"..\include\pbc_poly.h"\
+	"..\include\pbc_symtab.h"\
+	"..\include\pbc_tracker.h"\
+	"..\include\pbc_utils.h"\
+	".\gmp.h"\
+	
+
+..\arith\fasterfp.c : \
+	"..\include\pbc_assert.h"\
+	"..\include\pbc_field.h"\
+	"..\include\pbc_fp.h"\
+	"..\include\pbc_memory.h"\
+	"..\include\pbc_random.h"\
+	".\gmp.h"\
+	
+
+..\arith\fastfp.c : \
+	"..\include\pbc_assert.h"\
+	"..\include\pbc_field.h"\
+	"..\include\pbc_fp.h"\
+	"..\include\pbc_memory.h"\
+	"..\include\pbc_random.h"\
+	".\gmp.h"\
+	
+
+..\arith\field.c : \
+	"..\include\pbc_assert.h"\
+	"..\include\pbc_darray.h"\
+	"..\include\pbc_field.h"\
+	"..\include\pbc_memory.h"\
+	"..\include\pbc_utils.h"\
+	".\gmp.h"\
+	
+
+..\arith\fieldquadratic.c : \
+	"..\include\pbc_assert.h"\
+	"..\include\pbc_field.h"\
+	"..\include\pbc_fieldquadratic.h"\
+	"..\include\pbc_memory.h"\
+	"..\include\pbc_utils.h"\
+	".\gmp.h"\
+	
+
+..\misc\fops.c : \
+	"..\include\pbc_fops.h"\
+	"..\include\pbc_tracker.h"\
+	
+
+..\arith\fp.c : \
+	"..\include\pbc_assert.h"\
+	"..\include\pbc_field.h"\
+	"..\include\pbc_fp.h"\
+	".\gmp.h"\
+	
+
+.\getime.cpp : \
+	"..\include\StdAfx.h"\
+	"d:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+..\misc\memory.c : \
+	"..\include\pbc_memory.h"\
+	
+
+..\arith\montfp.c : \
+	"..\include\pbc_assert.h"\
+	"..\include\pbc_field.h"\
+	"..\include\pbc_fp.h"\
+	"..\include\pbc_memory.h"\
+	"..\include\pbc_random.h"\
+	".\gmp.h"\
+	
+
+..\arith\naivefp.c : \
+	"..\include\pbc_assert.h"\
+	"..\include\pbc_field.h"\
+	"..\include\pbc_fp.h"\
+	"..\include\pbc_memory.h"\
+	"..\include\pbc_random.h"\
+	"..\include\pbc_utils.h"\
+	".\gmp.h"\
+	
+
+..\ecc\pairing.c : \
+	"..\include\pbc_a1_param.h"\
+	"..\include\pbc_a_param.h"\
+	"..\include\pbc_assert.h"\
+	"..\include\pbc_curve.h"\
+	"..\include\pbc_d_param.h"\
+	"..\include\pbc_darray.h"\
+	"..\include\pbc_e_param.h"\
+	"..\include\pbc_f_param.h"\
+	"..\include\pbc_field.h"\
+	"..\include\pbc_fops.h"\
+	"..\include\pbc_g_param.h"\
+	"..\include\pbc_memory.h"\
+	"..\include\pbc_mnt.h"\
+	"..\include\pbc_pairing.h"\
+	"..\include\pbc_parse.h"\
+	"..\include\pbc_poly.h"\
+	"..\include\pbc_symtab.h"\
+	"..\include\pbc_tracker.h"\
+	"..\include\pbc_utils.h"\
+	".\gmp.h"\
+	
+
+..\ecc\param.c : \
+	"..\include\pbc_darray.h"\
+	"..\include\pbc_fops.h"\
+	"..\include\pbc_memory.h"\
+	"..\include\pbc_parse.h"\
+	"..\include\pbc_symtab.h"\
+	"..\include\pbc_tracker.h"\
+	".\gmp.h"\
+	
+
+..\misc\parse.c : \
+	"..\include\pbc_fops.h"\
+	"..\include\pbc_memory.h"\
+	"..\include\pbc_parse.h"\
+	"..\include\pbc_tracker.h"\
+	
+
+..\arith\poly.c : \
+	"..\include\pbc_assert.h"\
+	"..\include\pbc_darray.h"\
+	"..\include\pbc_field.h"\
+	"..\include\pbc_memory.h"\
+	"..\include\pbc_poly.h"\
+	"..\include\pbc_utils.h"\
+	".\gmp.h"\
+	
+
+..\arith\random.c : \
+	"..\include\pbc_memory.h"\
+	"..\include\pbc_random.h"\
+	"..\include\pbc_utils.h"\
+	".\gmp.h"\
+	"d:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"d:\program files\microsoft visual studio\vc98\include\openssl\bn.h"\
+	"d:\program files\microsoft visual studio\vc98\include\openssl\e_os2.h"\
+	"d:\program files\microsoft visual studio\vc98\include\openssl\opensslconf.h"\
+	"d:\program files\microsoft visual studio\vc98\include\openssl\ossl_typ.h"\
+	"d:\program files\microsoft visual studio\vc98\include\openssl\rand.h"\
+	
+
+..\misc\symtab.c : \
+	"..\include\pbc_darray.h"\
+	"..\include\pbc_memory.h"\
+	"..\include\pbc_symtab.h"\
+	
+
+..\guru\testpairing.c : \
+	"..\include\pbc.h"\
+	"..\include\pbc_a_param.h"\
+	"..\include\pbc_assert.h"\
+	"..\include\pbc_curve.h"\
+	"..\include\pbc_d_param.h"\
+	"..\include\pbc_darray.h"\
+	"..\include\pbc_f_param.h"\
+	"..\include\pbc_field.h"\
+	"..\include\pbc_fops.h"\
+	"..\include\pbc_memory.h"\
+	"..\include\pbc_mnt.h"\
+	"..\include\pbc_pairing.h"\
+	"..\include\pbc_poly.h"\
+	"..\include\pbc_random.h"\
+	"..\include\pbc_symtab.h"\
+	".\gmp.h"\
+	
+
+..\misc\tracker.c : \
+	"..\include\pbc_tracker.h"\
+	

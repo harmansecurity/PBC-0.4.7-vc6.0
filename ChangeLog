@@ -1,0 +1,785 @@
+Commit: b5780666e50efdd416c371b23dc416ffe65ed2db 
+Author: Ben Lynn <blynn@cs.stanford.edu> Tue, 06 Feb 2007 14:54:38 -0800 
+
+    pbc-0.4.7
+
+Commit: b929d748573acbbdc43ec814faf218a5e82cb611 
+Author: Ben Lynn <blynn@cs.stanford.edu> Tue, 06 Feb 2007 14:54:10 -0800 
+
+    Final powering optimizations for D, G pairings
+
+Commit: 6cd05f14e0ca235038688aa3888288afc30bc82c 
+Author: Ben Lynn <blynn@cs.stanford.edu> Tue, 06 Feb 2007 04:11:52 -0800 
+
+    Other examples check input pairing is symmetric
+
+Commit: 660fc4628734723e9041c4c14ab088746f51f7d7 
+Author: Ben Lynn <blynn@cs.stanford.edu> Tue, 06 Feb 2007 03:58:01 -0800 
+
+    fp_cmp for zero case bugfix
+
+Commit: ee4d1389246cbdc4c1fca48cce5e88d83246f10d 
+Author: Ben Lynn <blynn@cs.stanford.edu> Fri, 02 Feb 2007 17:57:04 -0800 
+
+    pbc-0.4.6
+
+Commit: 41c69e31b56a5f47088fe6888945c405ffde5100 
+Author: Ben Lynn <blynn@cs.stanford.edu> Fri, 02 Feb 2007 17:51:59 -0800 
+
+    Added g149.param
+    
+    Started documenting type G pairings
+    
+    Elliptic nets for G pairings.
+
+Commit: 14bf5f64e97711dd8fa431ab18530c6184fee2f2 
+Author: Ben Lynn <blynn@cs.stanford.edu> Fri, 02 Feb 2007 00:48:53 -0800 
+
+    Type G pairings
+    
+    Bugfix: new generators picked after twisting curves
+
+Commit: eaded7bdee9a289e472314558af68a6cfa27b4f7 
+Author: Ben Lynn <blynn@cs.stanford.edu> Tue, 30 Jan 2007 18:53:30 -0800 
+
+    pbc-0.4.5
+
+Commit: 9f006b824312a8b91bf3dc73dc31189726e24eed 
+Author: Ben Lynn <blynn@cs.stanford.edu> Tue, 30 Jan 2007 18:42:00 -0800 
+
+    example/hess.c, example/paterson.c check pairing is symmetric
+    
+    Added benchmark/ellnet.c
+
+Commit: 1d1f7d724c2ba3c27283499ab40a63ddb4eda3bb 
+Author: Ben Lynn <blynn@cs.stanford.edu> Mon, 29 Jan 2007 13:55:07 -0800 
+
+    Type E option for Shipsey-Stange
+
+Commit: a65921fba159ed34266a4d0525561a31ef49c32e 
+Author: Ben Lynn <blynn@cs.stanford.edu> Mon, 29 Jan 2007 09:42:27 -0800 
+
+    Added faster way of generating random points
+    
+    Shipsey-Stange for more pairings
+
+Commit: e64ca895ea8cf388a00a67640078e3047b40d4ae 
+Author: Ben Lynn <blynn@cs.stanford.edu> Wed, 24 Jan 2007 21:20:27 -0800 
+
+    pbc-0.4.4
+
+Commit: 26758831f0494b3a996dbb652af41010551b2236 
+Author: Ben Lynn <blynn@cs.stanford.edu> Wed, 24 Jan 2007 08:29:07 -0800 
+
+    Precompute random point for type E
+
+Commit: 74426f5a9ae2e5886cfbeca71c6b5b48a65cdf76 
+Author: Ben Lynn <blynn@cs.stanford.edu> Wed, 24 Jan 2007 07:02:33 -0800 
+
+    Sliding windows is preferable to multiexponentiation in Tonelli for now
+
+Commit: 2b5f516df0c7d9c0e6671f18077e0ff7f4a59ea1 
+Author: Ben Lynn <blynn@cs.stanford.edu> Wed, 24 Jan 2007 06:15:19 -0800 
+
+    Lucas sequences for D pairings
+
+Commit: 84907210552c0a9d00f40bc05e4d62ffbb6c9864 
+Author: Ben Lynn <blynn@cs.stanford.edu> Wed, 24 Jan 2007 03:10:28 -0800 
+
+    Shipsey-Stange algorithm for A pairings, with and without preprocessing
+
+Commit: ec61367c70deda7d82b029b41996cc3faba8c438 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sun, 21 Jan 2007 03:33:18 -0800 
+
+    Multiexponentiate in Tonelli-Shanks algorithm (Hovav's suggestion)
+    
+    Added guru/59.c, a test program only meant for me (and my thesis)
+
+Commit: a4f8b36dd035e1b93b95cc9c8e9c4cf81d6f7332 
+Author: Ben Lynn <blynn@cs.stanford.edu> Fri, 19 Jan 2007 16:38:08 -0800 
+
+    Lucas sequences for type A Tate exponentiation
+
+Commit: d7eeab226a41d0b16771cc1f46dd363bc198f923 
+Author: Ben Lynn <blynn@cs.stanford.edu> Fri, 12 Jan 2007 23:38:16 -0800 
+
+    pbc-0.4.3
+
+Commit: e0555cbd233ce4b2805edcca6ef8c92e1ceaa626 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sun, 07 Jan 2007 01:22:54 -0800 
+
+    Added -e option to pbc
+    
+    curve_from_bytes checks input lies on curve
+
+Commit: ad31ae6d87361431bc6e577a111e517d9995204c 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sat, 02 Dec 2006 05:31:38 -0800 
+
+    Added pairing_is_symmetric()
+
+Commit: 66c72af584c31ea53e4d0b0ca12c770149b17b85 
+Author: Ben Lynn <blynn@cs.stanford.edu> Tue, 28 Nov 2006 14:33:20 -0800 
+
+    Added element_is_sqr to curve.c
+
+Commit: ee6ea3975c125223b6dcb8b3fe6d441b45ec9f33 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sun, 26 Nov 2006 17:28:33 -0800 
+
+    pbc-0.4.2
+    
+    Manual edits
+    
+    pbc/pbc fixes
+
+Commit: 44b1c454fb7d0180576f005e7eec6426f40b64db 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sun, 26 Nov 2006 16:14:28 -0800 
+
+    Fixed operator precedence of unary minus and exponentiation in pbc/pbc.c
+
+Commit: 36c5f30987e935963d00986fe10c6775478bfc48 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sun, 26 Nov 2006 15:49:02 -0800 
+
+    Manual bugfixes (reported by Paul Miller)
+    
+    Wrote curve_sign function
+
+Commit: 90003e6f92051b554fbb187bb6cf879cb68190a6 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sat, 25 Nov 2006 22:34:58 -0800 
+
+    Added element_set_str
+    
+    Minor cleanup in example subdirectory
+    
+    Added logo
+
+Commit: d27e04680a37e7f9e03ff77bf0542d5c503e21b4 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sat, 25 Nov 2006 17:42:01 -0800 
+
+    Wrote element_snprintf, element_snprint
+
+Commit: 5f02b191c6e5d3b1689345e21ed5ed8bafb8bd86 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sat, 25 Nov 2006 14:52:21 -0800 
+
+    Added pbc_strdup function
+
+Commit: 823ef039d8c0f6daa3f90b13e5be76251a590d80 
+Author: Ben Lynn <blynn@cs.stanford.edu> Fri, 24 Nov 2006 17:51:41 -0800 
+
+    pbc-0.4.1
+    
+    Comments and documentation edits
+
+Commit: fe6c607f4411d15712963ab4253db0fa962e215b 
+Author: Ben Lynn <blynn@cs.stanford.edu> Fri, 24 Nov 2006 04:52:04 -0800 
+
+    Documentation for bundled binaries
+
+Commit: 5d004472a17e8bff7260b6740a6f02b7b2cd4ba1 
+Author: Ben Lynn <blynn@cs.stanford.edu> Fri, 24 Nov 2006 03:13:09 -0800 
+
+    Reorganized programs in test directory
+
+Commit: d95f2b43eda7d8471a427082f4faa9c799411caa 
+Author: Ben Lynn <blynn@cs.stanford.edu> Thu, 23 Nov 2006 14:41:55 -0800 
+
+    pbc-0.4.0
+
+Commit: 76d9ac193b9cfde4cd19949eb6ab1e820c9cf375 
+Author: Ben Lynn <blynn@cs.stanford.edu> Thu, 23 Nov 2006 13:36:15 -0800 
+
+    Minor fixes
+
+Commit: b0a500b6961cb13a15af04f1f857cb2df4932e27 
+Author: Ben Lynn <blynn@cs.stanford.edu> Thu, 23 Nov 2006 10:31:23 -0800 
+
+    Custom memory allocation functions
+    
+    Library exits on memory allocation error
+
+Commit: d091694b4d3471ae3455a79bf1d0614e62b2c004 
+Author: Ben Lynn <blynn@cs.stanford.edu> Thu, 23 Nov 2006 09:02:14 -0800 
+
+    Improved CMake files, makerelease script
+
+Commit: 83fbb70948cad316ffe85b2cff3b70cdacb8e0c8 
+Author: Ben Lynn <blynn@cs.stanford.edu> Thu, 23 Nov 2006 07:51:29 -0800 
+
+    Prefixed header filenames with "pbc_"
+
+Commit: 9c22361032bfa83d4326b7ff0ef404561d55d4e7 
+Author: Ben Lynn <blynn@cs.stanford.edu> Thu, 23 Nov 2006 05:26:27 -0800 
+
+    Traded testbls.c for testsig.c from PBC_sig library
+    
+    Minor build system and documentation changes
+
+Commit: ee9b68fd647043f4851c1811762f0dcea05a7f92 
+Author: Ben Lynn <blynn@cs.stanford.edu> Wed, 22 Nov 2006 17:16:50 -0800 
+
+    Removed broadcast encryption and signatures code
+
+Commit: 34452033c6f6bf8f5118c21f9f7f3a9f44e61cfb 
+Author: Ben Lynn <blynn@cs.stanford.edu> Wed, 22 Nov 2006 16:57:17 -0800 
+
+    Added INSTALL clause for CMake
+    
+    Documented PBC debugging facilities
+
+Commit: 217ed19dd7a1c5884d31d92e506c296a58512ff0 
+Author: Ben Lynn <blynn@cs.stanford.edu> Wed, 22 Nov 2006 05:25:41 -0800 
+
+    Added pbc_assert.c: runtime type checking to help debugging
+    
+    Wrote code for default_element_pp_clear()
+    
+    Some test programs now show how to free the PBC data structures they use
+
+Commit: 8e911efad7dfc7aeb75198905ad29d07b5654da8 
+Author: Ben Lynn <blynn@cs.stanford.edu> Fri, 17 Nov 2006 03:19:33 -0800 
+
+    Plugged memory leaks, including low-level leaks in montfp.c, poly.c
+    
+    Removed old code for checking leaks (I use valgrind instead now)
+    
+    Minor manual updates
+
+Commit: 83ee9ad4802dea28fd87d2a07b7ee8eabee19648 
+Author: Ben Lynn <blynn@cs.stanford.edu> Wed, 15 Nov 2006 15:37:49 -0800 
+
+    pbc-0.3.17
+
+Commit: 0e47234e6a58565ae416f48efcb844c967e8b76a 
+Author: Ben Lynn <blynn@cs.stanford.edu> Wed, 15 Nov 2006 15:33:16 -0800 
+
+    Fixed element_from_hash() bug causing it to return different points
+    (reported by Paul Miller)
+
+Commit: d97cbf4056cf2f3585208222d489d62261cf42b6 
+Author: Ben Lynn <blynn@cs.stanford.edu> Tue, 14 Nov 2006 22:03:59 -0800 
+
+    Added fieldmpz.h to Makefile.am
+    
+    Fixed link in manual
+
+Commit: c8530f761df7b5183ac4c4d2390be5863b29e46c 
+Author: Ben Lynn <blynn@cs.stanford.edu> Thu, 09 Nov 2006 20:02:45 -0800 
+
+    pbc-0.3.16
+
+Commit: d3dd6420a4347630f7b59eb66786808f2bdd40dc 
+Author: Ben Lynn <blynn@cs.stanford.edu> Thu, 09 Nov 2006 19:51:27 -0800 
+
+    Added pbc_mpz_randomb()
+    
+    pbc.h includes random.h
+
+Commit: e32f7194d566d3bdd94d53717545bb4b43876bb4 
+Author: Ben Lynn <blynn@cs.stanford.edu> Thu, 09 Nov 2006 15:33:54 -0800 
+
+    pbc.h includes *param.h files
+    
+    Fixed missing a1_param.h in Makefile.am
+
+Commit: 2cd08862d661736a63b3b9567a8bcc0275bc4eaa 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sat, 04 Nov 2006 01:20:59 -0800 
+
+    pbc-0.3.15
+
+Commit: a2f3f4878c857d0879a20338c1b00ada33c93b6a 
+Author: Ben Lynn <blynn@cs.stanford.edu> Fri, 03 Nov 2006 20:26:26 -0800 
+
+    Renamed getline() in pbc.c test program
+    
+    Added Dmitry Kosolapov's comments to yuanli.c
+
+Commit: 1387990a3454f618177594a2c5aebb3d3596833e 
+Author: Ben Lynn <blynn@cs.stanford.edu> Fri, 20 Oct 2006 00:22:26 -0700 
+
+    Applied 64-bit (x86) bugfixes by John Bethencourt
+    
+    Added int_to_voidp() wrapper to avoid warnings on such machines
+
+Commit: 1e2a3d213613c07c587f65e525e97011a8ad4b9b 
+Author: Ben Lynn <blynn@cs.stanford.edu> Tue, 17 Oct 2006 04:44:03 -0700 
+
+    Index calculus optimizations
+    
+    Makefile fixes
+
+Commit: 568350e3d5b8a14ecda3ec7dec08d7b36c0bd424 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sat, 14 Oct 2006 19:22:07 -0700 
+
+    pbc-0.3.14
+
+Commit: 7688c5e4d77bb5f3ccab986d260c853afa3c33ee 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sat, 14 Oct 2006 19:08:00 -0700 
+
+    Added discrete log algorithms
+    
+    test/pbc.c improvements
+    
+    Disabled tinyfp.c
+
+Commit: 7cc4cf0baec9e5b9f0fc0ce4efd6c409eb9c3e5a 
+Author: Ben Lynn <blynn@cs.stanford.edu> Thu, 12 Oct 2006 01:13:28 -0700 
+
+    Fixed element_init_same_as() bug reported by John Bethencourt
+
+Commit: 1546eba1b6e4865d1bafbb58badbc7a89fa0a19f 
+Author: Ben Lynn <blynn@cs.stanford.edu> Mon, 09 Oct 2006 15:47:37 -0700 
+
+    test/pbc.c improvements
+    
+    Added element_div()
+
+Commit: 32e2bcaddb022edcb98d622e0ede0f419e97bd7e 
+Author: Ben Lynn <blynn@cs.stanford.edu> Mon, 09 Oct 2006 05:05:57 -0700 
+
+    makerelease bugfix
+    
+    Removed yuanli.c workarounds
+
+Commit: 1fac39a9d1fdb3b14893c0c049315b8963e63923 
+Author: Ben Lynn <blynn@cs.stanford.edu> Mon, 09 Oct 2006 04:50:43 -0700 
+
+    Reordered element_from_hash() arguments
+    
+    Renamed print_info to out_info
+
+Commit: 22f61ed53bade24b1fa1c67140c2de2e0bb0bd35 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sun, 08 Oct 2006 18:14:21 -0700 
+
+    pbc-0.3.13
+
+Commit: 4e167a0ae0ca87f5a878aaaa4f0c0686b8ebf58e 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sun, 08 Oct 2006 17:48:05 -0700 
+
+    Tries /dev/urandom by default
+    
+    Added quan.c, written by Dmitry Kosolapov
+
+Commit: 2e0149c5934fc26b69bcf116a3cd29b0f489ae48 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sun, 08 Oct 2006 17:03:48 -0700 
+
+    Improved pbc_mpz_from_hash()
+
+Commit: 9874e5ffcb693c6f048483b4b4e6c6fb49668358 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sun, 08 Oct 2006 03:36:36 -0700 
+
+    Changed integer to bytes conversion format
+
+Commit: 062d6fccccf6ca538b8d1e0f0431fc87fb282e75 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sun, 08 Oct 2006 02:04:58 -0700 
+
+    Added element_mul_zn()
+
+Commit: 9440ecc15314e7e973868847531c36606ff0b8fa 
+Author: Ben Lynn <blynn@cs.stanford.edu> Thu, 05 Oct 2006 15:11:11 -0700 
+
+    pbc-0.3.12
+    
+    Distribution compiles this time
+
+Commit: edcfb86362de1278985e345be9ad7f48a3fab7e0 
+Author: Ben Lynn <blynn@cs.stanford.edu> Thu, 05 Oct 2006 14:23:37 -0700 
+
+    Small A1 preprocessing improvement
+
+Commit: d6ac6af1b622b9c68e9da51014a444266e4df310 
+Author: Ben Lynn <blynn@cs.stanford.edu> Thu, 05 Oct 2006 13:38:09 -0700 
+
+    Merged a_param.c and a1_param.c
+    
+    Preprocessing for A1
+    
+    Removed duplicate code
+
+Commit: 1a354fdea623e5bf8ba4a392f8ab957825e12735 
+Author: Ben Lynn <blynn@cs.stanford.edu> Wed, 04 Oct 2006 14:26:22 -0700 
+
+    pbc-0.3.11
+    
+    timersa.c measures CRT exponentiation too
+
+Commit: d0b81fd7973f319732b5c7767139f2ca39ae7ab0 
+Author: Ben Lynn <blynn@cs.stanford.edu> Wed, 04 Oct 2006 13:33:21 -0700 
+
+    Removed curve_t data type
+
+Commit: 7b51b332515938f1b60ce895098b0977dcf8b627 
+Author: Ben Lynn <blynn@cs.stanford.edu> Tue, 03 Oct 2006 19:09:26 -0700 
+
+    fieldmpz.[ch]: wrappers around mpz_t
+    
+    pbc test program can operate on integers
+
+Commit: a19c612dc2de000d17094ff94fbaa040cc328b75 
+Author: Ben Lynn <blynn@cs.stanford.edu> Tue, 03 Oct 2006 11:49:33 -0700 
+
+    mont_fp.c: fp_to_bytes bugfix
+    
+    Replaced my code with mpz_import, mpz_export in several places
+    
+    Replaced strclone with strdup
+    
+    Started timersa.c
+
+Commit: 2c55848c6be9d03d7df5359a79e4dc35a3bf655d 
+Author: Ben Lynn <blynn@cs.stanford.edu> Tue, 03 Oct 2006 01:08:57 -0700 
+
+    Minor documentation changes
+
+Commit: a9d26fb333cb7709060bf92256fc6f0795d4ae95 
+Author: Ben Lynn <blynn@cs.stanford.edu> Tue, 03 Oct 2006 00:26:35 -0700 
+
+    pbc-0.3.10
+    
+    Applied Hovav Shacham's preprocessed exponentiation patch
+
+Commit: 605fcb43a5c5303eeb07806cb566203256df8e12 
+Author: Ben Lynn <blynn@cs.stanford.edu> Mon, 02 Oct 2006 23:06:58 -0700 
+
+    Added more generic field functions
+
+Commit: 834b8ab7764ddda0e6f92973f98183d3f8afd49a 
+Author: Ben Lynn <blynn@cs.stanford.edu> Mon, 02 Oct 2006 01:14:56 -0700 
+
+    testfi.c checks prime is 3 mod 4
+
+Commit: 7684d07bd45f59701de6a7c55efc409face690c4 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sun, 01 Oct 2006 19:20:19 -0700 
+
+    *fp.c: added element_halve()
+    
+    checkfp.c improvements
+
+Commit: 99a0e48b43b78c6ebf7c142b6fe0a3969259802e 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sat, 30 Sep 2006 05:45:44 -0700 
+
+    Plugged memory leaks in *_param.c: pairing_t data type gets cleared
+    
+    Simplified and fixed fieldquadratic.c
+
+Commit: 3ebbd128fb2ef4dd9934c50c96e6444416158fb7 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sat, 30 Sep 2006 03:38:06 -0700 
+
+    Fixed manual bugs found by Dmitry Kosolapov
+    
+    doc/Makefile fix
+
+Commit: c156109238d7ad7cf144cad26da2e640b31af8d6 
+Author: Ben Lynn <blynn@cs.stanford.edu> Fri, 29 Sep 2006 12:30:37 -0700 
+
+    pbc-0.3.9
+    
+    Wrote makerelease script
+
+Commit: 811ffef6c263c81eb9360a800384a232917b2d74 
+Author: Ben Lynn <blynn@cs.stanford.edu> Fri, 29 Sep 2006 04:40:11 -0700 
+
+    pbc.c: more robust, more functions
+    
+    Cleaned up warnings in get_time.win32.c
+    
+    Added cross-compilation switch to CMakeLists.txt
+
+Commit: 39c8a664361a042f5cba9ef4a97d558a0c670ed8 
+Author: Ben Lynn <blynn@cs.stanford.edu> Fri, 29 Sep 2006 01:03:18 -0700 
+
+    pbc.c works
+
+Commit: d9fc0b99b8b1470bc29269bcb145709043609d95 
+Author: Ben Lynn <blynn@cs.stanford.edu> Thu, 28 Sep 2006 23:24:54 -0700 
+
+    Compiles with mingw
+    
+    Started test/pbc.c
+
+Commit: 823fafc1add0d2eb61b1c3db8d4e0f12be9bde11 
+Author: Ben Lynn <blynn@cs.stanford.edu> Thu, 28 Sep 2006 15:08:20 -0700 
+
+    pbc-0.3.8
+
+Commit: bccd2669c5976ebb4fe8d5cb1427578b612cbc00 
+Author: Ben Lynn <blynn@cs.stanford.edu> Thu, 28 Sep 2006 15:05:45 -0700 
+
+    Rewrote element_vfprintf()
+
+Commit: a543fe05c82e3c199af70a60e5fc7c6e8684d57e 
+Author: Ben Lynn <blynn@cs.stanford.edu> Thu, 28 Sep 2006 13:29:01 -0700 
+
+    pbc-0.3.7
+
+Commit: ff715d2a836fd746284bc9c39ede90b8739688dc 
+Author: Ben Lynn <blynn@cs.stanford.edu> Thu, 28 Sep 2006 12:58:20 -0700 
+
+    element_sgn() for integer mod rings, poly mod rings
+
+Commit: 9d0692dbe44aa715e47eb0beab3038b86a96e51e 
+Author: Ben Lynn <blynn@cs.stanford.edu> Thu, 28 Sep 2006 05:19:46 -0700 
+
+    Test programs work with montfp.c
+
+Commit: 20f65e680dcae65abab6a1692a4e52cef0a16be6 
+Author: Ben Lynn <blynn@cs.stanford.edu> Thu, 28 Sep 2006 05:08:19 -0700 
+
+    montfp.c works with some test programs, but not all yet
+
+Commit: b104a6663882993cfd49f190cbc7af34cd95ecb4 
+Author: Ben Lynn <blynn@cs.stanford.edu> Thu, 28 Sep 2006 03:52:40 -0700 
+
+    Hashes are treated as little-endian
+    
+    Started montfp.c: reduction, multiplication fast and working
+
+Commit: ecd942e5fe9a0170213c97c3ae0798ac89fec72e 
+Author: Ben Lynn <blynn@cs.stanford.edu> Wed, 27 Sep 2006 17:15:37 -0700 
+
+    pbc-0.3.6
+
+Commit: ed9de9160f35fa6e132094916d3c06f45fe11465 
+Author: Ben Lynn <blynn@cs.stanford.edu> Wed, 27 Sep 2006 15:05:55 -0700 
+
+    field_init_fp() checks field size and initializes appropriate one
+    
+    tinyfp.c works
+
+Commit: 00b8c676561d0176b37973bfe0e6ad9cd2c6fea3 
+Author: Ben Lynn <blynn@cs.stanford.edu> Wed, 27 Sep 2006 14:40:14 -0700 
+
+    Faster version of fp (fasterfp.c)
+
+Commit: a50a799e4c3088f07491fb65db31361c236ba441 
+Author: Ben Lynn <blynn@cs.stanford.edu> Wed, 27 Sep 2006 06:12:26 -0700 
+
+    More F pairing optimzations
+    
+    And now faster with fastfp.c
+
+Commit: 72caf5d91923375e19d265a6d015e0b6bbbdc14c 
+Author: Ben Lynn <blynn@cs.stanford.edu> Wed, 27 Sep 2006 05:19:43 -0700 
+
+    F pairing optimizations
+    
+    Though still slightly slower under fastfp.c
+
+Commit: 27c0b46fac596fbc2b4c2070685a347be0c1f763 
+Author: Ben Lynn <blynn@cs.stanford.edu> Wed, 27 Sep 2006 01:51:23 -0700 
+
+    CMakeList.txt, doc/Makefile fixes
+    
+    cg-add include/fp.h
+
+Commit: 5ab0a1a6d6c717ff81c062b9ca9b56bdf64a2879 
+Author: Ben Lynn <blynn@cs.stanford.edu> Tue, 26 Sep 2006 23:25:51 -0700 
+
+    Added cmake file, which was created a few versions ago
+    
+    testfp.c: F pairings still slower, trying to fix this
+
+Commit: 0458c2a091604e3c45892b7a1d0b2ee72de271d2 
+Author: Ben Lynn <blynn@cs.stanford.edu> Tue, 26 Sep 2006 02:33:35 -0700 
+
+    Bugfixes in symtab.h
+    
+    d_param.c relied on old implementation of Fp
+    
+    fastfp.c: fixed fp_set_si()
+
+Commit: 16605ed318f77cc911d5774423684d3fb5a1ea7b 
+Author: Ben Lynn <blynn@cs.stanford.edu> Mon, 25 Sep 2006 18:55:29 -0700 
+
+    Moved Z/nZ declarations from field.h into new fp.h include file
+
+Commit: 5527e7947a6bf088dc7a9fb79dc700ccb721322d 
+Author: Ben Lynn <blynn@cs.stanford.edu> Mon, 25 Sep 2006 18:37:41 -0700 
+
+    fastfp.c works
+
+Commit: 01ca284dfe60f76a1fb6734c7c2babab21d7444d 
+Author: Ben Lynn <blynn@cs.stanford.edu> Mon, 25 Sep 2006 16:01:12 -0700 
+
+    Trying to get fastfp.c working
+
+Commit: 1e24959fdebd679f167153dc3a48c4e094cf3ea9 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sun, 24 Sep 2006 22:40:08 -0700 
+
+    Documented preprocessing
+    
+    pbc-0.3.5
+
+Commit: 2f83bd8c9f98044a80652b9b3559bb1df80d9db9 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sun, 24 Sep 2006 22:07:12 -0700 
+
+    Sped up D pairings slightly
+    
+    Patched a memory leak
+
+Commit: 12498ed0bf3f63f527d4c8495bf95467bb3a2469 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sun, 24 Sep 2006 19:47:52 -0700 
+
+    Preprocessing for type A and D pairings
+
+Commit: 5a9d254301239f00a2a301d98b1df70175b8e62f 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sun, 24 Sep 2006 12:27:14 -0700 
+
+    Removed almost all include statements
+    
+    Plugged field_clear() memory leak
+    
+    Added pairing->option_set to allow runtime switching between affine
+    and projective coordinates for Miller's algorithm
+    
+    Got rid of all compilation warnings
+    
+    Added element_double(), replaced a few element_mul_si() calls
+
+Commit: bece8cb274bea657bd5d6ac14d35c1253063e91b 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sun, 24 Sep 2006 03:50:39 -0700 
+
+    Started removing #include statements from headers
+    
+    "make dist" did not package bce/bce.h
+    
+    Removed unused variants of token_get*()
+    
+    cg-rm ChangeLog
+    
+    pbc-0.3.4
+
+Commit: 1196f97471fc8bea1244702ba7c9e42696106dca 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sun, 24 Sep 2006 02:10:51 -0700 
+
+    Manual: more docs on internal workings
+    
+    Bugfix: removed * from a couple of fetch_ops_t declarations
+    
+    Eliminated warning (don't need i=0 in listmnt.c anymore)
+
+Commit: bd57b3bf08455b04241bd99b4f191f23941f5e9c 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sat, 23 Sep 2006 15:29:41 -0700 
+
+    Minor manual corrections: type D pairings
+    
+    pbc-0.3.3
+
+Commit: 429b40712e2fa814644aabd78e1ddb26ea8fae5b 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sat, 23 Sep 2006 15:12:32 -0700 
+
+    Manual: param functions, darray_t, symtab_t
+
+Commit: 174ad605c016cbbafd367e6ef0ad61fa07db8207 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sat, 23 Sep 2006 03:08:05 -0700 
+
+    Removed the contributed ?_param_inp_{str|buf} functions
+    
+    cg-add, cg-rm fixes
+
+Commit: f0d47126b5ca2da1213be633398bfccab05a44ce 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sat, 23 Sep 2006 02:58:55 -0700 
+
+    "make dist" now automatically updates ChangeLog
+    (last few releases have stale ChangeLog)
+    
+    Renamed bgn to a1
+    
+    More work on the manual
+    
+    "fetch_ops_t *" to "fetch_opts_t" fixes
+
+Commit: c28381adc523087cd33401d3dc87cea60c1f062b 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sat, 23 Sep 2006 00:58:27 -0700 
+
+    Can use additive or multiplicative notation for curve groups
+    
+    Described this in manual
+
+Commit: cf235e2923efc951816c715a5f6a690737905e45 
+Author: Ben Lynn <blynn@cs.stanford.edu> Fri, 22 Sep 2006 03:09:51 -0700 
+
+    Manual: started writing about internals, pairing parameter functions
+    
+    Ran cg-add on certain manual files that were accidently left out
+
+Commit: e4df585154182c21286c764b5dd677ea7575a492 
+Author: Ben Lynn <blynn@cs.stanford.edu> Wed, 20 Sep 2006 18:19:40 -0700 
+
+    Changed fetch_ops typedefs to match GMP/PBC style
+
+Commit: 6cfbc511e86f362ba33ff2683ad1f2c8c59f192a 
+Author: Ben Lynn <blynn@cs.stanford.edu> Wed, 20 Sep 2006 15:14:46 -0700 
+
+    Moved get_time Win32 code to new file misc/get_time.win32.c
+
+Commit: fe7c97305a908f6382de64bae17c92c1e55a583d 
+Author: Ben Lynn <blynn@cs.stanford.edu> Wed, 20 Sep 2006 04:42:31 -0700 
+
+    pbc-0.3.2
+
+Commit: 2fef4a60b29ca32df41069b03c03ba286387524a 
+Author: Ben Lynn <blynn@cs.stanford.edu> Wed, 20 Sep 2006 04:14:32 -0700 
+
+    Added tutorial chapter, changed testsig.c correspondingly
+
+Commit: 5a1132c09b64c84d7d507b2e48dd4b2166d5c5b7 
+Author: Ben Lynn <blynn@cs.stanford.edu> Wed, 20 Sep 2006 02:57:26 -0700 
+
+    More documentation
+    
+    Implemented pairing_clear for type A pairings
+    
+    Renamed element_pow* functions to element_pow*_mpz
+    
+    Wrote element_pow*_zn wrappers
+    
+    Started converting test programs to use new API, avoid GMP functions
+
+Commit: 09a984d2fc864823ef4699f266f68bb90140e584 
+Author: Ben Lynn <blynn@cs.stanford.edu> Tue, 19 Sep 2006 18:41:04 -0700 
+
+    Added element_sgn() as alternative to element_sign()
+    
+    More documentation, cosmetic changes
+    
+    Use more wrappers in test programs
+    
+    Bugfix in fieldquadratic.c fq_sign()
+
+Commit: e512cfab2a8c204b35c43fc81b118d7329f28899 
+Author: Ben Lynn <blynn@cs.stanford.edu> Tue, 19 Sep 2006 03:46:33 -0700 
+
+    Wrote more documentation
+    
+    Wrote some wrappers, some test sources now use them
+
+Commit: cfb938da80b4515bc84ad7935126dc173a4e92b6 
+Author: Ben Lynn <blynn@cs.stanford.edu> Mon, 18 Sep 2006 18:55:24 -0700 
+
+    Better HTML output for manual
+
+Commit: 8df04da7b53c7c0c2c67b725136b6027c0be037e 
+Author: Ben Lynn <blynn@cs.stanford.edu> Mon, 18 Sep 2006 09:11:36 -0700 
+
+    Worked on manual:
+    * split source into several files
+    * wrote awk script to extract docs from code comments
+    * switched from jade to xmlto for build
+    
+    Renamed sig to pbc_sig
+    
+    Moved *.param to param subdirectory
+    
+    Makefile fixes
+    
+    pbc-0.3.1
+
+Commit: a8bd31b95ece24116cb176da03f025323f321e3a 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sun, 17 Sep 2006 22:28:23 -0700 
+
+    Restored accidently deleted a.param
+
+Commit: 54fa0538896b04f5d28e5cb46491860b3ebdb3a7 
+Author: Ben Lynn <blynn@cs.stanford.edu> Sun, 17 Sep 2006 17:00:24 -0700 
+
+    Initial commit
+

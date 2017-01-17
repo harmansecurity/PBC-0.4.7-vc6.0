@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+               "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd"
+    [
+    <!ENTITY chapter_basics SYSTEM "basics.xml">
+    <!ENTITY chapter_quickstart SYSTEM "quickstart.xml">
+    <!ENTITY chapter_tutorial SYSTEM "sigex.xml">
+    <!ENTITY chapter_pairingfns SYSTEM "pairingfns.xml">
+    <!ENTITY chapter_elementfns SYSTEM "elementfns.xml">
+    <!ENTITY chapter_paramfns SYSTEM "paramfns.xml">
+    <!ENTITY chapter_randomfns SYSTEM "randomfns.xml">
+    <!ENTITY chapter_internal SYSTEM "internal.xml">
+    <!ENTITY chapter_auxfns SYSTEM "auxfns.xml">
+    <!ENTITY chapter_customalloc SYSTEM "alloc.xml">
+    <!ENTITY chapter_bundle SYSTEM "bundle.xml">
+    <!ENTITY chapter_security SYSTEM "security.xml">
+    <!ENTITY appendix_contributors SYSTEM "contributors.xml">
+
+    <!ENTITY einit SYSTEM "gen/einit.xml">
+    <!ENTITY eassign SYSTEM "gen/eassign.xml">
+    <!ENTITY econvert SYSTEM "gen/econvert.xml">
+    <!ENTITY earith SYSTEM "gen/earith.xml">
+    <!ENTITY ecmp SYSTEM "gen/ecmp.xml">
+    <!ENTITY erandom SYSTEM "gen/erandom.xml">
+    <!ENTITY eio SYSTEM "gen/eio.xml">
+    <!ENTITY epow SYSTEM "gen/epow.xml">
+    <!ENTITY etrade SYSTEM "gen/etrade.xml">
+
+    <!ENTITY pairing_init SYSTEM "gen/pairing_init.xml">
+    <!ENTITY pairing_apply SYSTEM "gen/pairing_apply.xml">
+    <!ENTITY pairing_op SYSTEM "gen/pairing_op.xml">
+
+    <!ENTITY aparam SYSTEM "gen/aparam.xml">
+    <!ENTITY a1param SYSTEM "gen/a1param.xml">
+    <!ENTITY dparam SYSTEM "gen/dparam.xml">
+    <!ENTITY cminfo SYSTEM "gen/cminfo.xml">
+    <!ENTITY eparam SYSTEM "gen/eparam.xml">
+    <!ENTITY fparam SYSTEM "gen/fparam.xml">
+    <!ENTITY gparam SYSTEM "gen/gparam.xml">
+
+    <!ENTITY pbcrandom SYSTEM "gen/pbcrandom.xml">
+
+    <!ENTITY darray SYSTEM "gen/darray.xml">
+    <!ENTITY symtab SYSTEM "gen/symtab.xml">
+    <!ENTITY alloc SYSTEM "gen/alloc.xml">
+    ]
+>
+<book>
+<bookinfo>
+    <title>PBC Library Manual</title>
+    <author><firstname>Ben</firstname><surname>Lynn</surname></author>
+    <copyright><year>2006</year><holder>Ben Lynn</holder></copyright>
+</bookinfo>
+<preface id="preface"><title>Preface</title>
+<para>
+This manual describes how to install and use the PBC pairing-based
+cryptography library, version 0.4.7.
+</para>
+<para>
+It is modeled on the GMP manual. GMP is the GNU multiple precision
+arithmetic library, and PBC is built on top of GMP. The PBC API
+is strongly influenced by the GMP API, so it is appropriate that
+this manual imitates the look and feel of the GMP manual.
+</para>
+</preface>
+<chapter id="overview"><title>Overview</title>
+<para>
+The PBC library is a free portable C library designed to make it easy
+to implement
+pairing-based cryptosystems. It provides an abstract interface to a
+cyclic group with a bilinear pairing, and the programmer does not need
+to worry about, or even know about elliptic curves.
+</para>
+<para>
+It is built on top of GMP, another C library which performs arbitrary
+precision arithmetic on integers, rationals and floats with strong emphasis on
+portability and speed.
+</para>
+<para>
+The PBC library homepage: <ulink url="http://crypto.stanford.edu/pbc/">
+http://crypto.stanford.edu/pbc/</ulink>
+</para>
+<para>
+The GMP library homepage: <ulink url="http://www.swox.com/gmp/">
+http://www.swox.com/gmp/</ulink>
+</para>
+</chapter>
+<chapter id="install"><title>Installing PBC</title>
+<para>
+The PBC library needs the GMP library, which can be found at
+<ulink url="http://www.swox.com/gmp/">http://www.swox.com/gmp/</ulink>
+Alternative ways to install PBC are provided.
+</para>
+<variablelist>
+<varlistentry><term>
+GNU Build System (autotools)
+</term>
+<listitem><para>
+This build system has been tested and works on Linux and Mac OS X with a
+fink installation.
+</para>
+<screen>
+./configure
+make
+make install
+</screen>
+<para>
+By default the library is installed in <filename>/usr/local/lib</filename>.
+On some systems, this may not be in the library
+path. One way to fix this is to edit <filename>/etc/ld.so.conf</filename> and
+run <filename>ldconfig</filename>.
+</para>
+</listitem>
+</varlistentry>
+
+<varlistentry><term>
+CMake
+</term>
+<listitem><para>
+A <filename>CMakeLists.txt</filename> is also provided.
+CMake is a newer tool that I prefer to use during development.
+</para>
+<screen>
+cmake .
+make
+</screen>
+</listitem>
+</varlistentry>
+
+</variablelist>
+<para>
+PBC uses some GNU C extensions, notably nested functions.
+For efficiency, some of the lower-level PBC code relies on some GMP internals,
+which may change in future releases. In that case, the PBC code will also
+have to be updated.
+</para>
+</chapter>
+&chapter_quickstart;
+&chapter_basics;
+&chapter_tutorial;
+&chapter_pairingfns;
+&chapter_elementfns;
+&chapter_paramfns;
+&chapter_randomfns;
+&chapter_auxfns;
+&chapter_customalloc;
+&chapter_bundle;
+&chapter_internal;
+&chapter_security;
+&appendix_contributors;
+</book>
