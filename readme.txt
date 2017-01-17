@@ -1,1 +1,0 @@
-刚刚修改成功的在VC6.0下的可用整套源码，注意解压后要打开PBCVC文件夹下的PBCVC.dsw工作区运行，可以分别将example文件夹下的例子分别放入该工作区，但要删除原工作区的testpairing.c文件，因为testpairing.c本身就是一个带有main函数的可用实例
